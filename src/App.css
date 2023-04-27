@@ -48,6 +48,7 @@ li{
 }
 .icon{
   font-size: var(--h2FontSize);
+  cursor: pointer;
 }
 img{
   width: 100%;
