@@ -11,6 +11,7 @@ import {AiOutlinePieChart} from 'react-icons/ai'
 import {BiTrendingUp} from 'react-icons/bi'
 import {MdOutlinePermContactCalendar} from 'react-icons/md'
 import {BsCreditCard2Front} from 'react-icons/bs'
+import {BsQuestionCircle} from 'react-icons/bs'
 
 const SideBar = () => {
   return (
@@ -22,6 +23,7 @@ const SideBar = () => {
       <div className="menuDiv">
         <h3 className='divTitle'>
           QUICK MENU
+          </h3>
           <ul className='menuLists grid'>
            <li className="listItem">
          <a href="#"className='menuLink flex'>
@@ -57,12 +59,13 @@ const SideBar = () => {
      </a>
      </li>
           </ul>
-        </h3>
+       
 
       </div>
-      <div className="settingDiv">
+      <div className="settingsDiv">
         <h3 className='divTitle'>
           SETTINGS
+          </h3>
           <ul className='menuLists grid'>
            <li className="listItem">
          <a href="#"className='menuLink flex'>
@@ -98,8 +101,19 @@ const SideBar = () => {
      </a>
      </li>
           </ul>
-        </h3>
+       
 
+      </div>
+
+      <div className="sideBarCard">
+         <BsQuestionCircle  className= "icon"/>
+         <div className="cardContent">
+          <div className="circle1"></div>
+          <div className="circle2"></div>
+          <h3>Help Center</h3>
+          <p>Having trouble in Planti, please contact us for more question.</p>
+          <button className="btn">Go to help center</button>
+         </div>
       </div>
 
       

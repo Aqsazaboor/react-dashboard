@@ -4,7 +4,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 *{
-  background-color: skyblue;
+  /* background-color: skyblue; */
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
@@ -60,6 +60,7 @@ img{
  .grid{
   display: grid;
   align-items: center;
+  gap: 1.5rem;
  }
  .btn{
   border: none;
@@ -96,4 +97,7 @@ body{
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 2px 2px 8px var(--greyText);
+}
+::-webkit-scrollbar{
+  display: none;
 }
