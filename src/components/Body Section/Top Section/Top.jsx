@@ -6,6 +6,8 @@ import {IoMdNotificationsOutline}from 'react-icons/io'
 // import image======>
 import admin from '../../../Assets/user3.jfif'
 import rainvideo from '../../../Assets/rainvideo.mp4'
+import {BsArrowRightShort} from 'react-icons/bs'
+import lampimg from '../../../Assets/lamp (2).jpg'
 import './top.css';
 const Top = () => {
   return (
@@ -13,7 +15,7 @@ const Top = () => {
       <div className="topSection">
         <div className="headerSection flex">
           <div className="title">
-            <h1>Welcome to Pranti.</h1>
+            <h1>Welcome to Planti.</h1>
             <p>Hello IsraTeach,Welcome Back!</p>
           </div>
           <div className="searchBar flex">
@@ -50,24 +52,42 @@ const Top = () => {
             </div>
           </div>
 
-          {/* <div className="leftard flex">
+          <div className="leftCard flex">
             <div className="main flex">
+
               <div className="textDiv">
                 <h1>My stat</h1>
 
                 <div className="flex">
                   <span>
-                    Today <br />.<small>4 Orders</small>
+                    Today <br /><small>4 Orders</small>
                     </span>
-                    <div className="flex">
-                  <span>
-                    This Month <br />.<small>127 Orders</small>
+                    <span>
+                    This Month <br /><small>175 Orders</small>
                     </span>
-                </div>
-                </div>
+                    </div>
+                 <span  className='flex link'>
+                Go to my orders <BsArrowRightShort className='icon' />
+                 </span>
+                
+                
               </div>
+              <div className="imgDiv">
+                <img src={lampimg} alt="" />
+              </div>
+
+              {/* <div className="sideBarCard">
+         <BsQuestionCircle  className= "icon"/>
+         <div className="cardContent">
+          <div className="circle1"></div>
+          <div className="circle2"></div>
+          <h3>Help Center</h3>
+          <p>Having trouble in Planti, please contact us for more question.</p>
+          <button className="btn">Go to help center</button>
+         </div>
+            </div> */}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     
