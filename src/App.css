@@ -102,3 +102,38 @@ body{
 ::-webkit-scrollbar{
   display: none;
 }
+
+
+/* media Queries */
+
+
+
+@media screen  and (max-width: 990px){
+
+  .heading{
+
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media screen  and (max-width: 918px){
+
+  .heading{
+
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+@media screen  and (max-width: 918px){
+
+  .heading{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

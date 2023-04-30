@@ -1,3 +1,4 @@
+
 .mainContent{
     width: 82%;
     height: 100%;
@@ -9,3 +10,16 @@
         align-items: flex-start ;
     }
 }
+
+// media quries
+
+
+@media screen and (max-width: 918px) {
+
+    .bottom{
+
+        flex-direction: column;
+    }
+    
+}
+

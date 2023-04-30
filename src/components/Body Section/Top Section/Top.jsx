@@ -8,6 +8,7 @@ import admin from '../../../Assets/user3.jfif'
 import rainvideo from '../../../Assets/rainvideo.mp4'
 import {BsArrowRightShort} from 'react-icons/bs'
 import lampimg from '../../../Assets/lamp (2).jpg'
+import {BsQuestionCircle} from 'react-icons/bs'
 import './top.css';
 const Top = () => {
   return (
@@ -76,7 +77,7 @@ const Top = () => {
                 <img src={lampimg} alt="" />
               </div>
 
-              {/* <div className="sideBarCard">
+              <div className="sideBarCard">
          <BsQuestionCircle  className= "icon"/>
          <div className="cardContent">
           <div className="circle1"></div>
@@ -85,7 +86,7 @@ const Top = () => {
           <p>Having trouble in Planti, please contact us for more question.</p>
           <button className="btn">Go to help center</button>
          </div>
-            </div> */}
+            </div>
             </div>
           </div>
         </div>

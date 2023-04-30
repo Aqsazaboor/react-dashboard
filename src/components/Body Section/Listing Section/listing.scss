@@ -151,3 +151,43 @@
         }
     }
   }
+
+
+//   media quries
+
+
+@media screen  and (max-width: 990px){
+
+    .lisitingSection{
+        .sellers{
+            .card{
+           flex-direction: column;
+
+            }
+        }
+    }
+
+}
+
+@media screen  and (max-width: 918px){
+
+    .lisitingSection{
+        .singleItem{
+            width: 200px !important;
+        }
+    }
+
+}
+@media screen  and (max-width: 490px){
+
+    .lisitingSection{
+        .sellers{
+
+            flex-direction: column;
+            .card{
+             flex-direction: row;
+            }
+            
+        }
+    }
+  }
