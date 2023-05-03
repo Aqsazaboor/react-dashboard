@@ -134,9 +134,6 @@
   background: var(--palrGreen);
   color: var(--PrimaryColor);
 }
-.topSection .cardSection .leftCard {
-  flex-basis: 50%;
-}
 .topSection .cardSection .leftCard .main {
   position: relative;
   padding: 1rem;

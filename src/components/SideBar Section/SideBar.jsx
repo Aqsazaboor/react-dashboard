@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar.css'
 // import image
-import logo from '../../Assets/images.jfif'
+import logo from '../../Assets/user3.jfif'
 // import react icon
 import {IoMdSpeedometer} from 'react-icons/io'
 import {MdDeliveryDining } from 'react-icons/md'

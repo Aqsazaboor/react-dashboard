@@ -12,7 +12,6 @@ import {BsQuestionCircle} from 'react-icons/bs'
 import './top.css';
 const Top = () => {
   return (
-    
       <div className="topSection">
         <div className="headerSection flex">
           <div className="title">
@@ -74,7 +73,7 @@ const Top = () => {
                 
               </div>
               <div className="imgDiv">
-                <img src={lampimg} alt="" />
+                {/* <img src={lampimg} alt="" /> */}
               </div>
 
               <div className="sideBarCard">
